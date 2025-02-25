@@ -207,11 +207,13 @@
   justify-content: center;
 }
 
+/* SERVICE */
+
 .service_frame .container {
   flex-direction: row;
 }
 
-.container .service_box {
+.service_frame .container .service_box {
   width: 25%;
   height: 86px;
 
@@ -221,19 +223,19 @@
   border-bottom: 1px solid #eaeaea;
 }
 
-.service_box img {
+.service_frame .service_box img {
   width: 35px;
   height: 35px;
 }
 
-.service_box .service_content {
-  margin-left: 140px;
+.service_frame .service_box .service_content {
+  margin-left: 14px;
 
   display: flex;
   flex-direction: column;
 }
 
-.service_content span {
+.service_frame .service_content span {
   font-family: "Jost";
   font-style: normal;
   font-weight: 500;
@@ -243,10 +245,10 @@
   color: #041e42;
 }
 
-.service_content p {
+.service_frame .service_content p {
   font-family: "Jost";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 15px;
   line-height: 22px;
 
