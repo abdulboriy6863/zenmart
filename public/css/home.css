@@ -32,6 +32,7 @@
   font-size: 15px;
   line-height: 22px;
   text-transform: capitalize;
+  cursor: pointer;
 
   color: #041e42;
 }
@@ -93,6 +94,16 @@
   background: #112137;
   border-radius: 50%;
 }
+
+.container .hover_border {
+  margin-top: 3px;
+  width: 32px;
+  height: 2px;
+
+  background: #041e42;
+}
+
+/* HEADER FRAME */
 
 .header_frame {
   position: relative;
@@ -598,4 +609,147 @@
   font-weight: 500;
   line-height: 26px;
   color: #0053f6;
+}
+
+/* SPACE PRODUCT */
+
+.home_page .space_product_frame {
+  position: relative;
+  margin-top: 90px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.space_product_frame .container {
+  flex-direction: column;
+}
+
+.container .space_product_wrapper {
+  position: relative;
+  margin-top: 35px;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.space_product_wrapper .big_product_wrapper {
+  position: relative;
+  padding: 30px;
+  width: 664px;
+  height: 368px;
+
+  display: flex;
+  flex-direction: row;
+
+  background: #f3f5f6;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+
+.big_product_wrapper .big_product_content {
+  width: 160px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.big_product_content span {
+  font-family: "Jost";
+  font-style: normal;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+
+  color: #041e42;
+}
+
+.big_product_content p {
+  margin: 7px 0;
+
+  font-family: "Jost";
+  font-style: normal;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 38px;
+
+  color: #041e42;
+}
+
+.big_product_content a {
+  font-family: "Jost";
+  font-style: normal;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+
+  color: #041e42;
+}
+
+.big_product_wrapper img {
+  position: absolute;
+  width: 322px;
+  height: 309px;
+  right: 5%;
+}
+
+.space_product_wrapper .small_product_wrapper {
+  margin-left: 30px;
+  width: 620px;
+  height: 368px;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.small_product_wrapper .small_prodcut_box {
+  position: relative;
+  padding: 30px;
+  width: 293px;
+  height: 170px;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  background: #f3f5f6;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+
+.small_prodcut_box:nth-child(odd) {
+  margin-right: 30px;
+}
+
+.small_prodcut_box .small_product_box_content {
+  display: flex;
+  flex-direction: column;
+}
+
+.small_product_box_content p {
+  font-family: "Jost";
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #041e42;
+}
+
+.small_product_box_content a {
+  font-family: "Jost";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #626974;
+}
+
+.small_prodcut_box img {
+  position: absolute;
+  right: 30px;
+  bottom: 15px;
 }
