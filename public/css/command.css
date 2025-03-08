@@ -1,3 +1,7 @@
+:root {
+  --font: sans-serif;
+}
+
 html,
 body {
   margin: 0;
@@ -93,7 +97,7 @@ p {
   border: none;
   outline: none;
 
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
