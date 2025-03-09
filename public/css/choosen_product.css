@@ -1,0 +1,418 @@
+.choosen_product_page {
+  position: relative;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* .choosen_product_page .container {
+  flex-direction: row;
+} */
+
+.main_header_frame .container {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.container .main_header_box {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.main_header_frame .main_header_right {
+  width: 632px;
+  height: 796px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.main_header_right .zoom_out {
+  position: absolute;
+  left: 46%;
+}
+
+.main_header_right .big_img_box {
+  width: 631px;
+  height: 686px;
+  background: url("../images/products/macbook_16.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.main_header_right span {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  justify-content: center;
+
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+
+  color: #041e42;
+}
+
+.main_header_right .small_img_boxes_main {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.main_header_right .small_img_boxes {
+  margin-right: 20px;
+  margin-top: 30px;
+  width: 74px;
+  height: 80px;
+
+  border: 1px solid #c0bebe;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.main_header_right .small_img_box {
+  width: 55.22px;
+  height: 60px;
+
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.main_header_frame .main_header_left {
+  width: 637px;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.main_header_left .full_brand_name {
+  margin-left: 50px;
+  width: 637px;
+  height: 123px;
+
+  border-bottom: 1px solid #d2d0d0;
+}
+
+.full_brand_name .rewiew_box {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.full_brand_name .product_title {
+  padding-right: 10px;
+  margin-right: 20px;
+  width: auto;
+  height: auto;
+
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #626974;
+  border-right: 1px solid #d2d0d0;
+}
+
+.rewiew_box img {
+  padding-right: 5px;
+}
+
+.rewiew_box span {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #626974;
+}
+
+.product_description {
+  width: 637px;
+
+  color: rgb(4, 30, 66);
+  font-family: "Jost";
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.main_header_costs {
+  margin: 30px 0 30px 50px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+}
+
+.main_header_costs strong {
+  margin-right: 10px;
+  color: rgb(4, 30, 66);
+  font-family: "Jost";
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 38px;
+}
+
+.main_header_costs span {
+  color: rgb(98, 105, 116);
+  font-family: "Jost";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 40px;
+  text-decoration-line: line-through;
+}
+
+.main_header_content_box {
+  margin-left: 50px;
+  width: 637px;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+
+  border-bottom: 1px solid #d2d0d0;
+}
+
+.main_header_content_box .laptop_information_boxes {
+  margin-bottom: 20px;
+
+  width: 329px;
+  height: auto;
+}
+
+.information_of_laptop_box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.information_of_laptop_box strong {
+  color: rgb(4, 30, 66);
+  font-family: "Jost";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  text-transform: capitalize;
+}
+
+.information_of_laptop_box span {
+  color: rgb(4, 30, 66);
+  font-family: "Jost";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  text-transform: capitalize;
+}
+
+.main_header_left .buying_product_section {
+  margin-left: 50px;
+  width: 637px;
+  height: 80px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  border-bottom: 1px solid #d2d0d0;
+}
+
+.buying_product_section .rectangl_box {
+  width: 155px;
+  height: 52px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  border: 1px solid #d2d0d0;
+  border-radius: 30px;
+}
+
+.buying_product_section .rectangl_box .minus_box {
+  width: 35.13px;
+  height: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.buying_product_section .rectangl_box .minus_box:hover {
+  background: rgb(243, 245, 246);
+}
+
+.rectangl_box .plus_box {
+  width: 35.13px;
+  height: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.rectangl_box .plus_box:hover {
+  background: rgb(243, 245, 246);
+}
+
+.buying_product_section .card_box {
+  width: 155px;
+  height: 52px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  box-sizing: border-box;
+  border: 1px solid rgb(245, 195, 75);
+  border-radius: 30px;
+
+  background: rgb(245, 195, 75);
+}
+
+.card_box a {
+  color: rgb(4, 30, 66);
+  font-family: "Jost";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  cursor: pointer;
+}
+
+.buying_product_section .buying_box {
+  width: 155px;
+  height: 52px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  box-sizing: border-box;
+  border: 1px solid rgb(245, 195, 75);
+  border-radius: 30px;
+
+  background: rgb(245, 195, 75);
+}
+
+.buying_box a {
+  color: rgb(4, 30, 66);
+  font-family: "Jost";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  cursor: pointer;
+}
+
+.buying_product_section .icon_box {
+  width: 61px;
+  height: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buying_product_section .text_box {
+  width: 100%;
+  height: auto;
+}
+
+.text_box strong {
+  margin-top: 20px;
+  margin-left: 50px;
+
+  color: rgb(4, 30, 66);
+  font-family: "Jost";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+
+  display: block;
+}
+
+.main_header_left .media_of_laptop {
+  padding-bottom: 20px;
+  margin: 30px 0 0 50px;
+  width: 567px;
+  height: 30px;
+
+  display: flex;
+
+  border-bottom: 1px solid #d2d0d0;
+}
+
+.media_of_laptop i {
+  margin-right: 18px;
+  color: rgb(4, 30, 66);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 30px;
+  cursor: pointer;
+}
+
+.main_header_left .media_of_laptop span {
+  margin-right: 18px;
+
+  color: rgb(4, 30, 66);
+  font-family: "Jost";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.main_header_left .delivery_boxes {
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.delivery_boxes .delivery_box {
+  padding: 10px;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.delivery_box img {
+  width: 24px;
+  margin-right: 10px;
+
+  border: 1px dashed #d8d8d8;
+}
+
+.delivery_box span {
+  color: rgb(4, 30, 66);
+  font-family: "Jost";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+}
