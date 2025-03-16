@@ -1,0 +1,365 @@
+.settinges_page {
+  position: relative;
+  margin-top: 80px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.settinges_page .settinges_page_frame .container {
+  flex-direction: row;
+}
+
+.container .side_bar_frame {
+  margin-right: 40px;
+  width: 240px;
+  height: 341px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.settinges_page .side_bar_frame .top_name_categories {
+  width: 100%;
+  height: 61px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  border-bottom: 1px solid rgb(234, 234, 234);
+}
+
+.top_name_categories img {
+  margin: 0 10px 0 5px;
+  width: 38px;
+  height: 34px;
+
+  border-radius: 60px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.top_name_categories .top_name_categories_box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  background-repeat: no-repeat;
+}
+
+.top_name_categories_box strong {
+  color: rgb(4, 30, 66);
+  font-family: "Jost";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.top_name_categories_box span {
+  color: rgb(4, 30, 66);
+  font-family: "Jost";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+/* .top_name_categories_box img {
+  width: 15px;
+  height: 15px;
+
+  position: absolute;
+  right: 20%;
+} */
+
+.side_bar_frame .bottom_info_boxes {
+  margin-left: 15px;
+  width: 100%;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.bottom_info_boxes .bottom_info_box {
+  display: flex;
+  flex-direction: row;
+}
+
+.bottom_info_box img {
+  margin-right: 8px;
+  color: rgb(4, 30, 66);
+  cursor: pointer;
+}
+
+.bottom_info_box span {
+  color: rgb(4, 30, 66);
+  font-family: "Jost";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 45px;
+  cursor: pointer;
+}
+
+.container .account_details_frame {
+  width: 100%;
+  height: 1236px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.account_details_frame .right_title_box {
+  color: rgb(4, 30, 66);
+  font-family: "Jost";
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.account_details_frame .right_top_categories {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.right_top_categories span {
+  margin-right: 40px;
+  font-family: "Jost";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.right_top_categories span:hover {
+  border-bottom: 2px solid black;
+}
+
+.account_details_frame .input_boxes {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.input_boxes .input_box {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input_box label {
+  color: rgb(4, 30, 66);
+  font-family: "Jost";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.input_box input {
+  margin-top: 10px;
+  width: 517px;
+  height: 55px;
+
+  border: none;
+  outline: none;
+
+  box-sizing: border-box;
+  border: 1px solid rgb(234, 234, 234);
+  border-radius: 6px;
+
+  background: rgb(255, 255, 255);
+}
+
+.input_box ::placeholder {
+  padding-left: 15px;
+
+  color: rgb(98, 105, 116);
+  font-family: "Jost";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.account_details_frame .updating_boxes {
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.updating_boxes .update {
+  margin-right: 20px;
+  width: 118px;
+  height: 52px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  box-sizing: border-box;
+  border: 1px solid rgb(245, 195, 75);
+  border-radius: 6px;
+
+  box-shadow: 0px 5px 20px 0px rgba(245, 195, 75, 0.15);
+  background: rgb(245, 195, 75);
+}
+
+.updating_boxes .cancel {
+  width: 118px;
+  height: 52px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.updating_boxes .cancel:hover {
+  box-sizing: border-box;
+  border: 1px solid rgb(245, 195, 75);
+  border-radius: 6px;
+
+  box-shadow: 0px 5px 20px 0px rgba(245, 195, 75, 0.15);
+  background: rgb(245, 195, 75);
+}
+
+.updating_boxes a {
+  color: rgb(4, 30, 66);
+  font-family: "Jost";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.account_details_frame .input_boxes_bottom {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.input_boxes_bottom .input_box {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input_box label {
+  color: rgb(4, 30, 66);
+  font-family: "Jost";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.input_box input {
+  margin-top: 10px;
+  width: 517px;
+  height: 55px;
+
+  border: none;
+  outline: none;
+
+  box-sizing: border-box;
+  border: 1px solid rgb(234, 234, 234);
+  border-radius: 6px;
+
+  background: rgb(255, 255, 255);
+}
+
+.input_box ::placeholder {
+  padding-left: 15px;
+
+  color: rgb(98, 105, 116);
+  font-family: "Jost";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.account_details_frame .rectangle_boxes {
+  margin-top: 30px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.rectangle_boxes .rectangle_box {
+  width: 726px;
+  height: 77px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.rectangle_box .for_rectangle {
+  margin-top: 2px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  border-bottom: 1px solid rgb(234, 234, 234);
+}
+
+.rectangle_box span {
+  color: rgb(4, 30, 66);
+  font-family: "Jost";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.rectangle_box .for_rectangle p {
+  color: rgb(4, 30, 66);
+  font-family: "Jost";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.for_rectangle .for_rectangle_rigth {
+  width: 59px;
+  height: 30px;
+
+  border-radius: 30px;
+  background: rgb(243, 245, 246);
+}
+
+.for_rectangle_rigth .small_section {
+  margin-top: 2px;
+  width: 28px;
+  height: 26px;
+
+  border-radius: 200px;
+
+  box-shadow: 0px 2px 2px 0px rgba(17, 33, 55, 0.1);
+  background: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.rectangle_box .for_rectangle_rigth.active {
+  background-color: black;
+}
+
+.footer_frame {
+  margin-top: 150px;
+}
