@@ -1,0 +1,327 @@
+.about_page {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about_page .top_img_frame {
+  width: 100%;
+  height: 470px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.top_img_frame .container {
+  flex-direction: column;
+}
+
+.container .top_img_boxes {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.top_img_boxes .top_img_box_2_3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.top_img_frame .text_boxes {
+  margin-top: 50px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.text_boxes .top_info_box {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.text_boxes .top_info_box strong {
+  color: rgb(4, 30, 66);
+  font-family: "Jost";
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.top_info_box span {
+  margin-top: 20px;
+  color: rgb(4, 30, 66);
+  font-family: "Jost";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.top_info_box p {
+  margin-top: 20px;
+
+  color: rgb(4, 30, 66);
+  font-family: "Jost";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.text_boxes .bottom_info_boxes {
+  padding-bottom: 60px;
+  margin-top: 40px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  border-bottom: 1px solid rgb(234, 234, 234);
+}
+
+.bottom_info_boxes .left_text_box {
+  width: 566px;
+}
+
+.left_text_box strong {
+  color: rgb(4, 30, 66);
+  font-family: "Jost";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.left_text_box p {
+  color: rgb(4, 30, 66);
+  font-family: "Jost";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.about_page .result_box {
+  padding-bottom: 60px;
+  margin-top: 40px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+
+  border-bottom: 1px solid rgb(234, 234, 234);
+}
+
+.result_box strong {
+  color: rgb(4, 30, 66);
+  font-family: "Jost";
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.result_box .result_numbers {
+  margin-top: 30px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.result_numbers .result_number_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.result_number_box span {
+  color: rgb(4, 30, 66);
+  font-family: "Jost";
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 72px;
+}
+
+.result_number_box p {
+  color: rgb(4, 30, 66);
+  font-family: "Jost";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.about_page .meeting_box {
+  margin-top: 50px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.meeting_box strong {
+  color: rgb(4, 30, 66);
+  font-family: "Jost";
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.meeting_box .people_img_boxes {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.people_img_boxes .people_img_box {
+  margin-right: 15px;
+  height: 403px;
+  display: flex;
+  flex-direction: column;
+}
+
+.people_img_box img {
+  margin-top: 20px;
+  width: 266px;
+  height: 330px;
+
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 8px;
+}
+
+.people_img_box span {
+  margin-top: 10px;
+  color: rgb(4, 30, 66);
+  font-family: "Jost";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.people_img_box p {
+  color: rgb(98, 105, 116);
+  font-family: "Jost";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+/* .people_img_boxes .background_opacity_img_box {
+  display: flex;
+  flex-direction: column;
+}
+
+.background_opacity_img_box div {
+  margin-top: 20px;
+  width: 266px;
+  height: 330px;
+
+  background: url("https://scrolldroll.com/wp-content/uploads/2023/02/Kim-So-Hyun-best-korean-actresses.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8px;
+
+  background: rgb(231, 182, 67);
+  opacity: 0.9;
+} */
+
+.about_page .contact_bottom_boxes {
+  margin-top: 80px;
+
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.contact_bottom_boxes strong {
+  color: rgb(4, 30, 66);
+  font-family: "Jost";
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.contact_bottom_boxes .contact_info_boxes {
+  margin-top: 30px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.contact_bottom_boxes .contact_info_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contact_info_box img {
+  /* width: 34px;
+  height: 40px; */
+}
+
+.contact_info_box span {
+  color: rgb(4, 30, 66);
+  font-family: "Jost";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.contact_info_box p {
+  color: rgb(98, 105, 116);
+  font-family: "Jost";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.footer_frame {
+  margin-top: 85%;
+}
