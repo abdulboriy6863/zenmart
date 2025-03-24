@@ -38,7 +38,7 @@
 .sign_frame .input_box {
   display: flex;
   flex-direction: column;
-  padding-bottom: 25px;
+  padding-bottom: 20px;
 }
 
 .input_box label {
@@ -54,7 +54,7 @@
 .input_box input {
   margin-top: 5px;
   width: 608px;
-  height: 73px;
+  height: 56px;
   border: none;
   outline: none;
 
@@ -89,41 +89,8 @@
   color: rgb(2, 24, 54);
 }
 
-.sign_frame .sign_in_boxes .chackbox {
-  margin-top: 15px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.chackbox input {
-  padding-right: 8px;
-  width: 26.51px;
-  height: 21.07px;
-}
-
-.chackbox span {
-  color: rgb(4, 30, 66);
-  font-family: "Jost";
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 28px;
-  letter-spacing: 0%;
-  text-align: left;
-}
-
-.chackbox a {
-  color: rgb(68, 50, 151);
-  font-family: "Jost";
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 28px;
-  letter-spacing: 0%;
-  text-align: right;
-}
-
 .sign_in_boxes .sending_bottom {
-  margin-top: 35px;
+  margin-top: 10px;
   width: 608px;
   height: 52px;
 
@@ -148,7 +115,7 @@
 }
 
 .sign_in_boxes .creating_account {
-  margin-top: 50px;
+  margin-top: 20px;
   display: flex;
   justify-content: center;
 }
@@ -170,7 +137,7 @@
 }
 
 .sign_in_boxes .line_div div {
-  margin-top: 70px;
+  margin-top: 35px;
   width: 608px;
   height: 1.32px;
 
@@ -202,7 +169,7 @@
 }
 
 .sign_in_boxes .icon_boxes {
-  margin-top: 50px;
+  margin-top: 30px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
